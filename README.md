@@ -356,17 +356,21 @@ Watch our demo video to see Still in action:
 
 <img src ="recording copy.gif"  />
 
-
 <div align="left">
   <img src="https://media3.giphy.com/media/rrOif8vmuM6g05Zha5/giphy.gif?cid=6c09b9525yudzzl1gio0aotte4jpryu1uy7dlflc01rk9s3i&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Cloud Image" width="300">
 </div>
 
+Part 3 Demo Video: 
+<a href="https://youtu.be/8q-LnL8vNBw" target="_blank">
+  <img src="https://www.youtube.com/watch?v=WFn2z9TR46M" alt="YouTube Icon">
+</a>
+<p>
 
+Part 2 Demo Video: 
 <a href="https://youtu.be/8q-LnL8vNBw" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Icon">
 </a>
 <p>
-
 --- 
 ## License
 
