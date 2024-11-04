@@ -365,6 +365,9 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 ---
 
 ## Publication Materials
+We have published our application but due to a excess amount of submissions it has been forced into a draft.
+![Screenshot (397)](https://github.com/user-attachments/assets/514665d5-0256-4df9-811c-72a4b37bcb92)
+![Screenshot (396)](https://github.com/user-attachments/assets/4684850c-3c59-4e10-96f0-9c9e08a6a349)
 
 ## Demo Videos
 Watch our demo video to see Still in action:
