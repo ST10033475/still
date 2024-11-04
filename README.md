@@ -86,8 +86,14 @@ Our team used CircleCI and SonarQube along with GitHub Actions to automate check
 *(GitHub, 2024)*.
 
 ## Release Notes
-### Updates: 
-1. Multi-language support: Still now supports 2 languages in addition to English, those being 
+### Updates to the Application: 
+1. Notepad Functionality: Still now offers a notepad for users to jot down their thoughts and feelings, serving as a journal so that users can track their mindfulness and inner peace journey - this feature is available online and offline. This feature has been added to allow users to track their growth and see the difference that Still makes in their lives.
+2. Power Up the Lightbulb: This feature is an animation that powers up a lightbulb based on the number of songs that the user has listened to, for example, after every 5 songs that the user has listened to, the lightbulb will glow brighter and brighter, this feature has been added as it motivates users to listen to more songs, and do more of what they aim to do by listening to those songs, for example, if the user wants to focus, and they are listening to the songs within the Focus category, they may be motivated to focus even more because of the sense of achievement that is felt when seeing the lightbulb glow. 
+3. Multi-language support: Still now supports 2 languages in addition to English, those being Afrikaans and Zulu, as this is an application made by South Africans, for South Africans, the reason why we have added this feature is to break down the langauge divide and provide as many people as possible with access to an application that help them find inner peace and be mindful.
+4. Real-time notifications: Still now provides a user with a notification in their notification center once a note has been saved to the online database, in addition, it also provides a suggestion on what a user should do depending on their input into the mood tracker, for example, if the user says that they are feeling sad then a notification will pop up in their notification center suggesting that the user should chat to Serena AI - this has been added as it provides more feedback to the user and directs the user to getting help (in the case of the mood tracker notification).
+5. Offline mode: A user can save a note while they are not connected to any Wi-Fi network, any mobile hotspot or any mobile data, and the note will sync with the online database as soon as the user is back online - this has been added as users can use the app for an extended amount of time as they don't need to use Wi-Fi, a mobile hotspot or mobile data in order to use this feature of the application. 
+6. Biometric Authentication: If a user's mobile device supports biometric authentication, the user can log in with biometric authentication, this not only skips the login process, whereby the user no longer enters their username and password (which improves security) but also ensures that only the user whom the account belongs to, will be able to access the application, furthermore, the login process is made a lot easier, so the user can log into the app quicker.
+*(Jackson, 2022; Labib, 2021; Tartakovsky et al., 2022)*
 
 
 ## Main Features
