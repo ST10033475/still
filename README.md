@@ -361,9 +361,10 @@ Watch our demo video to see Still in action:
 </div>
 
 Part 3 Demo Video: 
-<a href="https://youtu.be/8q-LnL8vNBw" target="_blank">
-  <img src="https://youtu.be/WFn2z9TR46M?si=mRTwKsa2gvKEq7EY" alt="YouTube Icon">
+<a href="https://youtu.be/WFn2z9TR46M?si=_GCuuS73cv-DKBCo" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Icon">
 </a>
+<p>
 <p>
 
 Part 2 Demo Video: 
