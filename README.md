@@ -37,10 +37,11 @@
     - [From GitHub](#from-github)
     - [From the Play Store](#from-the-play-store)
 14. [Screenshots](#screenshots)
-15. [Demo Videos](#demo-videos)
-16. [License](#license)
-17. [Contact](#contact)
-18. [References](#references)
+15. [Publication Materials](#publication-materials)
+16. [Demo Videos](#demo-videos)
+17. [License](#license)
+18. [Contact](#contact)
+19. [References](#references)
 
 ## Overview
 
@@ -362,6 +363,8 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 </table>
 
 ---
+
+## Publication Materials
 
 ## Demo Videos
 Watch our demo video to see Still in action:
