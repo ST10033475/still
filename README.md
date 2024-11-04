@@ -250,7 +250,7 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 
 
 ## Installation
-
+### From GitHub
 1. Clone the repository:
    ```bash
    git clone https://github.com/InvestIQ/still.git
@@ -264,7 +264,17 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 
 5. Enjoy the Stillness!
 
-## Screenshots
+### From the Play Store 
+1. Go to the Play Store on your android device and log in with your Google account.
+
+2. Search for 'Still' in the search bar at the top
+
+3. Install the app by clicking 'Install'
+
+4. Enjoy the Stillness!
+   
+## Screenshots 
+### These screenshots will be used in the screenshots section of the application description on the Play Store.
 <table>
   <tr>
     <td>
