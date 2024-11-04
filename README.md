@@ -367,8 +367,10 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 ## Publication Materials
 We have published our application but due to a excess amount of submissions it has been forced into a draft.
 ![Screenshot (397)](https://github.com/user-attachments/assets/514665d5-0256-4df9-811c-72a4b37bcb92)
+The above screenshot shows the app ready to be published to the Google Play store. All neccessary materials and information has been added to enable publication, including the app icon, screenshots for the application, application category, privacy policy and description. 
+<br/>
 ![Screenshot (396)](https://github.com/user-attachments/assets/4684850c-3c59-4e10-96f0-9c9e08a6a349)
-
+Unfortunatley the application could not be published as the daily APK or Android App Bundle limit has been exceeded. This can be seen in the screenshot above
 ## Demo Videos
 Watch our demo video to see Still in action:
 
