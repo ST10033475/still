@@ -362,7 +362,7 @@ Watch our demo video to see Still in action:
 
 Part 3 Demo Video: 
 <a href="https://youtu.be/8q-LnL8vNBw" target="_blank">
-  <img src="https://www.youtube.com/watch?v=WFn2z9TR46M" alt="YouTube Icon">
+  <img src="https://youtu.be/WFn2z9TR46M?si=mRTwKsa2gvKEq7EY" alt="YouTube Icon">
 </a>
 <p>
 
