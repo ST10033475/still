@@ -49,6 +49,8 @@
 
 *(Bell & Troy, 2024; Tartakovsky & Pedersen, 2022)*
 
+The above overview was used in the Play Store description for Still.
+
 ---
 
 ## Team Members
