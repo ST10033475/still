@@ -34,6 +34,8 @@
 11. [In Depth Analyses of Serena-AI](#in-depth-analyses-of-serena-ai)
 12. [Serenity API](#serenity-api)
 13. [Installation](#installation)
+    - [From GitHub](#from-github)
+    - [From the Play Store](#from-the-play-store)
 14. [Screenshots](#screenshots)
 15. [Demo Videos](#demo-videos)
 16. [License](#license)
