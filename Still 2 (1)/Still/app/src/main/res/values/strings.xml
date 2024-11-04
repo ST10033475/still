@@ -1,0 +1,144 @@
+<!-- ENGLISH -->
+<resources>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="btn_login">NEXT</string>
+    <string name="redirect_signup">Don\'t have an account? Create one here</string>
+    <string name="slogan">Stillness. Serenity. Sound</string>
+    <string name="fingerprint_auth_title">Fingerprint Authentication</string>
+    <string name="fingerprint_auth_subtitle">Log in using your fingerprint</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">LOGIN</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="name_hint">Name</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="want_to_change_password">Want to change your password? Update</string>
+    <string name="select_language"> select_language</string>
+    <string name="introducing_ai_technology">Introducing AI Technology</string>
+    <string name="attempts_left">Attempts Left: %1$d</string>
+
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="next_button">NEXT</string>
+    <string name="slogan_text">Stillness. Serenity. Sound</string>
+    <string name="redirect_to_login">Have an account? Login</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Zulu</item>
+        <item>Afrikaans</item>
+    </string-array>
+
+    <string name="quizwhiz">QuizWhizz</string>
+    <string name="memorex">Memorex</string>
+
+    <string name="score_text">Your score: %1$d out of %2$d</string>
+    <string name="question_text">Question</string>
+    <string name="restart_quiz">Restart Quiz</string>
+
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">How many hearts does an octopus have?</string>
+    <string name="question_2">Scurvy is caused by a lack of this vitamin?</string>
+    <string name="question_3">Where did the Olympic Games originate?</string>
+    <string name="question_4">Who was the Ancient Greek God of the Sun?</string>
+    <string name="question_5">How many minutes are in a full week?</string>
+    <string name="question_6">How many faces does a Dodecahedron have?</string>
+    <string name="question_7">What is the 4th letter of the Greek alphabet?</string>
+    <string name="question_8">What is a word, phrase, number, or other sequence of characters that reads the same backward as forward?</string>
+    <string name="question_9">In which country would you find Mount Kilimanjaro?</string>
+    <string name="question_10">Halloween originated as an ancient Irish festival.</string>
+    <string name="question_11">Which is the only continent with land in all four hemispheres?</string>
+    <string name="question_12">Which river flows through the Grand Canyon?</string>
+    <string name="question_13">On which continent would you find the world’s largest desert?</string>
+    <string name="question_14">How many colors are used in the South African flag?</string>
+
+    <string name="option_1_q1">3</string>
+    <string name="option_2_q1">1</string>
+    <string name="option_3_q1">7</string>
+
+    <string name="option_1_q2">Vitamin D</string>
+    <string name="option_2_q2">Vitamin C</string>
+    <string name="option_3_q2">Vitamin A</string>
+
+    <string name="option_1_q3">Italy</string>
+    <string name="option_2_q3">USA</string>
+    <string name="option_3_q3">Greece</string>
+
+    <string name="option_1_q4">Apollo</string>
+    <string name="option_2_q4">Zeus</string>
+    <string name="option_3_q4">Aries</string>
+
+    <string name="option_1_q5">10,080</string>
+    <string name="option_2_q5">14,201</string>
+    <string name="option_3_q5">7,407</string>
+
+    <string name="option_1_q6">10</string>
+    <string name="option_2_q6">12</string>
+    <string name="option_3_q6">14</string>
+
+    <string name="option_1_q7">Beta</string>
+    <string name="option_2_q7">Omega</string>
+    <string name="option_3_q7">Delta</string>
+
+    <string name="option_1_q8">Palindrome</string>
+    <string name="option_2_q8">Cypher</string>
+    <string name="option_3_q8">Cryptogram</string>
+
+    <string name="option_1_q9">Kenya</string>
+    <string name="option_2_q9">Tanzania</string>
+    <string name="option_3_q9">China</string>
+
+    <string name="option_1_q10">True</string>
+    <string name="option_2_q10">False</string>
+    <string name="option_3_q10">Unknown</string>
+
+    <string name="option_1_q11">Asia</string>
+    <string name="option_2_q11">South America</string>
+    <string name="option_3_q11">Africa</string>
+
+    <string name="option_1_q12">Amazon River</string>
+    <string name="option_2_q12">Colorado River</string>
+    <string name="option_3_q12">Nile River</string>
+
+    <string name="option_1_q13">Antarctica</string>
+    <string name="option_2_q13">Australia</string>
+    <string name="option_3_q13">Africa</string>
+
+    <string name="option_1_q14">7</string>
+    <string name="option_2_q14">6</string>
+    <string name="option_3_q14">10</string>
+
+    <string name="prompt_hint">How do you feel?</string>
+    <string name="response_default">Response will appear here</string>
+    <string name="generate_button_text">Generate</string>
+
+    <string name="notehead_text">Notepad</string>
+    <string name="noteTitle_hint">Enter Title</string>
+    <string name="noteDescription_hint">Enter Description</string>
+    <string name="saveButton_text">Save Note</string>
+    <string name="viewNotesButton_text">View Notes</string>
+
+    <string name="notes_title">Notes</string>
+    <string name="back">Back</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_description">Note Description</string>
+    <string name="note_date">Date</string>
+
+    <string name="track_mood">Track your mood:</string>
+    <string name="how_feeling_today">How are you feeling today?</string>
+    <string name="emotion_hint">I\'m Happy</string>
+    <string name="submit">Submit</string>
+
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+
+    <string name="home">Home</string>
+    <string name="hub">Hub</string>
+    <string name="settings">Settings</string>
+</resources>
+

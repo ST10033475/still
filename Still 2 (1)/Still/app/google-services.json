@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1029846371898",
+    "project_id": "still-2004",
+    "storage_bucket": "still-2004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029846371898:android:2627e6c5ec7fa85fb22f03",
+        "android_client_info": {
+          "package_name": "com.example.still"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029846371898-ic52g02dl6sph9ckg4ei40gevop2jfrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.still",
+            "certificate_hash": "3ea2d58a9abdc36c746862b555ed344697814a9e"
+          }
+        },
+        {
+          "client_id": "1029846371898-c7rk7vcrvuje24sr7p7quhgop2d9d4le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgb0mdV9QkAROJIRUXx5lueve3_q4XFjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029846371898-c7rk7vcrvuje24sr7p7quhgop2d9d4le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

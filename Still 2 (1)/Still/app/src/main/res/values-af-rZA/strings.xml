@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_username">Gebruikersnaam</string>
+    <string name="login_password">Wagwoord</string>
+    <string name="btn_login">VOLGENDE</string>
+    <string name="redirect_signup">Het jy nie \'n rekening nie? Skep een hier</string>
+    <string name="slogan">Stilte. Kalmte. Klank</string>
+    <string name="fingerprint_auth_title">Vingerafdruk Verifikasie</string>
+    <string name="fingerprint_auth_subtitle">Teken in met jou vingerafdruk</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="login">LOGIN</string>
+    <string name="select_language"> select_language</string>
+    <string name="confirm_email">Bevestig E-pos</string>
+    <string name="name_hint">Naam</string>
+    <string name="delete_account">Verwyder Rekening</string>
+    <string name="want_to_change_password">Wil jy jou wagwoord verander? Opdateer</string>
+    <string name="introducing_ai_technology">Die bekendstelling van KI-tegnologie</string>
+    <string name="attempts_left">Pogings oor: %1$d</string>
+
+    <string name="username_hint">Gebruikersnaam</string>
+    <string name="password_hint">Wagwoord</string>
+    <string name="confirm_password_hint">Bevestig Wagwoord</string>
+    <string name="next_button">VOLGENDE</string>
+    <string name="slogan_text">Stilte. Sereniteit. Klank</string>
+    <string name="redirect_to_login">Het u \'n rekening? Teken in</string>
+
+    <string name="quizwhiz">Vraagspeletjie</string>
+    <string name="memorex">Onthou</string>
+
+    <string name="score_text">Jou telling: %1$d uit %2$d</string>
+
+    <string name="question_text">Vraag</string>
+    <string name="restart_quiz">Herbegin Quiz</string>
+
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">Hoeveel harte het \'n octopus?</string>
+    <string name="question_2">Scurvy word veroorsaak deur \'n gebrek aan hierdie vitamien?</string>
+    <string name="question_3">Waar het die Olimpiese Spele ontstaan?</string>
+    <string name="question_4">Wie was die Antieke Griekse God van die Son?</string>
+    <string name="question_5">Hoeveel minute is daar in \'n volle week?</string>
+    <string name="question_6">Hoeveel gesigte het \'n Dodecahedron?</string>
+    <string name="question_7">Wat is die 4de letter van die Griekse alfabet?</string>
+    <string name="question_8">Wat is \'n woord, frase, nommer of ander reeks karakters wat dieselfde vorentoe en agtertoe gelees word?</string>
+    <string name="question_9">In watter land sou jy die Mount Kilimanjaro vind?</string>
+    <string name="question_10">Halloween het ontstaan as \'n antieke Ierse fees.</string>
+    <string name="question_11">Watter kontinent het land in al vier hemisfere?</string>
+    <string name="question_12">Watter rivier vloei deur die Grand Canyon?</string>
+    <string name="question_13">Op watter kontinent sou jy die wêreld se grootste woestyn vind?</string>
+    <string name="question_14">Hoeveel kleure word in die Suid-Afrikaanse vlag gebruik?</string>
+
+    <string name="option_1_q1">3</string>
+    <string name="option_2_q1">1</string>
+    <string name="option_3_q1">7</string>
+
+    <string name="option_1_q2">Vitamine D</string>
+    <string name="option_2_q2">Vitamine C</string>
+    <string name="option_3_q2">Vitamine A</string>
+
+    <string name="option_1_q3">Italië</string>
+    <string name="option_2_q3">VSA</string>
+    <string name="option_3_q3">Griekeland</string>
+
+    <string name="option_1_q4">Apollo</string>
+    <string name="option_2_q4">Zeus</string>
+    <string name="option_3_q4">Aries</string>
+
+    <string name="option_1_q5">10,080</string>
+    <string name="option_2_q5">14,201</string>
+    <string name="option_3_q5">7,407</string>
+
+    <string name="option_1_q6">10</string>
+    <string name="option_2_q6">12</string>
+    <string name="option_3_q6">14</string>
+
+    <string name="option_1_q7">Beta</string>
+    <string name="option_2_q7">Omega</string>
+    <string name="option_3_q7">Delta</string>
+
+    <string name="option_1_q8">Palindroom</string>
+    <string name="option_2_q8">Cypher</string>
+    <string name="option_3_q8">Cryptogram</string>
+
+    <string name="option_1_q9">Kenya</string>
+    <string name="option_2_q9">Tanzanië</string>
+    <string name="option_3_q9">China</string>
+
+    <string name="option_1_q10">Waar</string>
+    <string name="option_2_q10">Onwaar</string>
+    <string name="option_3_q10">Onbekend</string>
+
+    <string name="option_1_q11">Asië</string>
+    <string name="option_2_q11">Suid-Amerika</string>
+    <string name="option_3_q11">Afrika</string>
+
+    <string name="option_1_q12">Amazonerivier</string>
+    <string name="option_2_q12">Colorado-rivier</string>
+    <string name="option_3_q12">Nilerivier</string>
+
+    <string name="option_1_q13">Antarktika</string>
+    <string name="option_2_q13">Australië</string>
+    <string name="option_3_q13">Afrika</string>
+
+    <string name="option_1_q14">7</string>
+    <string name="option_2_q14">6</string>
+    <string name="option_3_q14">10</string>
+
+    <string name="prompt_hint">Hoe voel jy?</string>
+    <string name="response_default">Antwoord sal hier verskyn</string>
+    <string name="generate_button_text">Genereer</string>
+
+    <string name="notehead_text">Notaboek</string>
+    <string name="noteTitle_hint">Voer Titel in</string>
+    <string name="noteDescription_hint">Voer Beskrywing in</string>
+    <string name="saveButton_text">Stoor Nota</string>
+    <string name="viewNotesButton_text">Sien Notas</string>
+
+    <string name="notes_title">Notas</string>
+    <string name="back">Terug</string>
+    <string name="note_title">Nota Titel</string>
+    <string name="note_description">Nota Beskrywing</string>
+    <string name="note_date">Datum</string>
+
+    <string name="track_mood">Volg jou bui:</string>
+    <string name="how_feeling_today">Hoe voel jy vandag?</string>
+    <string name="emotion_hint">Ek is gelukkig</string>
+    <string name="submit">Indien</string>
+
+    <string name="title">Titel</string>
+    <string name="date">Datum</string>
+    <string name="edit">Wysig</string>
+    <string name="delete">Vee uit</string>
+    <string name="view">Besigtig</string>
+
+    <string name="home">Tuis</string>
+    <string name="hub">Spilpunt</string>
+    <string name="settings">Instellings</string>
+</resources>

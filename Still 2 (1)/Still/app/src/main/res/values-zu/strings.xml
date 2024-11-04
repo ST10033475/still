@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_username">Igama lomsebenzisi</string>
+    <string name="login_password">Iphasiwedi</string>
+    <string name="btn_login">OKULANDELAYO</string>
+    <string name="redirect_signup">Awunayo i-akhawunti? Yenza eyakho lapha</string>
+    <string name="slogan">Ukuthula. Ukuzola. Umsindo</string>
+    <string name="fingerprint_auth_title">Ukubona Umnwe</string>
+    <string name="fingerprint_auth_subtitle">Ngena ngemvume usebenzisa umnwe wakho</string>
+    <string name="cancel">Khansela</string>
+    <string name="login">LOGIN</string>
+    <string name="select_language"> select_language</string>
+    <string name="name_hint">Igama</string>
+    <string name="confirm_email">Qinisekisa I-imeyili</string>
+    <string name="delete_account">Susa I-akhawunti</string>
+    <string name="want_to_change_password">Ufuna ukushintsha iphasiwedi yakho? Buyekeza</string>
+    <string name="introducing_ai_technology">Ukuveza Ubuchwepheshe be-AI</string>
+    <string name="attempts_left">Izinketho Ezisele: %1$d</string>
+
+    <string name="username_hint">Igama lomsebenzisi</string>
+    <string name="password_hint">Iphasiwedi</string>
+    <string name="confirm_password_hint">Qinisekisa Iphasiwedi</string>
+    <string name="next_button">QHUBA</string>
+    <string name="slogan_text">Ukuthula. Ukuthula. Umsindo</string>
+    <string name="redirect_to_login">Unayo i-akhawunti? Ngena</string>
+
+    <string name="quizwhiz">I-QuizWhizz</string>
+    <string name="memorex">I-Memorex</string>
+
+    <string name="score_text">Iscore yakho: %1$d kwezi %2$d</string>
+    <string name="question_text">Umbuzo</string>
+    <string name="restart_quiz">Qala Kabusha Quiz</string>
+
+        <string name="app_name">Quiz App</string>
+        <string name="question_1">Ingabe i-octopus inezinhliziyo ezingaki?</string>
+        <string name="question_2">I-Scurvy ibangelwa ukungabi nalutho lwe-vitamini?</string>
+        <string name="question_3">I-Olympic Games ziqala kuphi?</string>
+        <string name="question_4">Ubani uNkulunkulu waseGrisi omdala welanga?</string>
+        <string name="question_5">Zingaki imizuzu ezikhona evikini eligcwele?</string>
+        <string name="question_6">Zingaki ubuso obukhona kwiDodecahedron?</string>
+        <string name="question_7">Yini i-4th letter ye-alphabet yeGrisi?</string>
+        <string name="question_8">Yini igama, ibinzana, inombolo, noma olunye uhlelo lwezincwadi olufundeka ngendlela efanayo phambili nasemuva?</string>
+        <string name="question_9">Kuphi izwe ongathola khona iMount Kilimanjaro?</string>
+        <string name="question_10">I-Halloween yaqhamuka njengomkhosi wesintu wase-Ireland.</string>
+        <string name="question_11">Yimiphi i-continent eyodwa kuphela enezwe kuyo yonke imikhakha emine?</string>
+        <string name="question_12">Yisiphi isihlahla esihamba emfuleni i-Grand Canyon?</string>
+        <string name="question_13">Kuphi i-continent ongathola khona isihlahla esikhulu emhlabeni?</string>
+        <string name="question_14">Zingaki imibala esebenziselwa iflegi yaseNingizimu Afrika?</string>
+
+    <string name="option_1_q1">3</string>
+    <string name="option_2_q1">1</string>
+    <string name="option_3_q1">7</string>
+
+    <string name="option_1_q2">I-Vitamin D</string>
+    <string name="option_2_q2">I-Vitamin C</string>
+    <string name="option_3_q2">I-Vitamin A</string>
+
+    <string name="option_1_q3">i-Italy</string>
+    <string name="option_2_q3">i-USA</string>
+    <string name="option_3_q3">i-Greece</string>
+
+    <string name="option_1_q4">u-Apollo</string>
+    <string name="option_2_q4">u-Zeus</string>
+    <string name="option_3_q4">u-Aries</string>
+
+    <string name="option_1_q5">10,080</string>
+    <string name="option_2_q5">14,201</string>
+    <string name="option_3_q5">7,407</string>
+
+    <string name="option_1_q6">10</string>
+    <string name="option_2_q6">12</string>
+    <string name="option_3_q6">14</string>
+
+    <string name="option_1_q7">i-Beta</string>
+    <string name="option_2_q7">i-Omega</string>
+    <string name="option_3_q7">i-Delta</string>
+
+    <string name="option_1_q8">i-Palindrome</string>
+    <string name="option_2_q8">i-Cypher</string>
+    <string name="option_3_q8">i-Cryptogram</string>
+
+    <string name="option_1_q9">i-Kenya</string>
+    <string name="option_2_q9">i-Tanzania</string>
+    <string name="option_3_q9">i-China</string>
+
+    <string name="option_1_q10">Iqiniso</string>
+    <string name="option_2_q10">Iphutha</string>
+    <string name="option_3_q10">Ayaziwa</string>
+
+    <string name="option_1_q11">i-Asia</string>
+    <string name="option_2_q11">i-South America</string>
+    <string name="option_3_q11">i-Afrika</string>
+
+    <string name="option_1_q12">i-Amazon River</string>
+    <string name="option_2_q12">i-Colorado River</string>
+    <string name="option_3_q12">i-Nile River</string>
+
+    <string name="option_1_q13">i-Antarctica</string>
+    <string name="option_2_q13">i-Australia</string>
+    <string name="option_3_q13">i-Afrika</string>
+
+    <string name="option_1_q14">7</string>
+    <string name="option_2_q14">6</string>
+    <string name="option_3_q14">10</string>
+
+    <string name="prompt_hint">Uziphi kanjani?</string>
+    <string name="response_default">Impendulo izovela lapha</string>
+    <string name="generate_button_text">Thumela</string>
+
+    <string name="notehead_text">Incwadi Yamanothi</string>
+    <string name="noteTitle_hint">Faka Isihloko</string>
+    <string name="noteDescription_hint">Faka Incazelo</string>
+    <string name="saveButton_text">Gcina Inothi</string>
+    <string name="viewNotesButton_text">Buka Amanothi</string>
+
+    <string name="notes_title">Amanothi</string>
+    <string name="back">Emuva</string>
+    <string name="note_title">Isihloko Senothi</string>
+    <string name="note_description">Incazelo Yenothi</string>
+    <string name="note_date">Idethi</string>
+
+    <string name="track_mood">Landela umuzwa wakho:</string>
+    <string name="how_feeling_today">Uzizwa kanjani namuhla?</string>
+    <string name="emotion_hint">Ngiyajabula</string>
+    <string name="submit">Thumela</string>
+
+    <string name="title">Isihloko</string>
+    <string name="date">Usuku</string>
+    <string name="edit">Hlela</string>
+    <string name="delete">Susa</string>
+    <string name="view">Buka</string>
+
+    <string name="home">Ekhaya</string>
+    <string name="hub">ihabhu</string>
+    <string name="settings">Izilungiselelo</string>
+</resources>

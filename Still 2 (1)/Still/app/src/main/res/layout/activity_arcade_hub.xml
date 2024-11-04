@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundBlue"
+    tools:context=".ArcadeHubActivity">
+
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="505dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/arcadebanner" />
+
+    <Button
+        android:id="@+id/quizwhizgame"
+        android:layout_width="303dp"
+        android:layout_height="194dp"
+        android:backgroundTint="@color/ButtonYellow"
+        android:fontFamily="@font/urbanist"
+        android:text="@string/quizwhiz"
+        android:textSize="40dp"
+        app:cornerRadius="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memorygame"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <Button
+        android:id="@+id/memorygame"
+        android:layout_width="308dp"
+        android:layout_height="196dp"
+        android:backgroundTint="#80B2E8"
+        android:fontFamily="@font/urbanist"
+        android:padding="16dp"
+        android:text="@string/memorex"
+        android:textSize="40dp"
+        app:cornerRadius="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

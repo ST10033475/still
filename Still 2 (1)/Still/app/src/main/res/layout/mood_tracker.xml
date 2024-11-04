@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BackgroundBlue">  <!-- Set the background color to match the popup -->
+
+    <!-- Your ConstraintLayout with the popup content goes here -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_popup"
+        android:padding="10dp">
+
+        <!-- ImageView above "Track your mood" TextView -->
+        <ImageView
+            android:id="@+id/imageView2"
+            app:layout_constraintBottom_toTopOf="@id/trackMoodLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bot"
+            android:layout_width="60dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="16dp" /> <!-- Adjust margin as needed -->
+
+        <!-- "Track your mood" TextView -->
+        <TextView
+            android:id="@+id/trackMoodLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/urbanist"
+            android:text="@string/track_mood"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <!-- "How are you feeling today?" TextView -->
+        <TextView
+            android:id="@+id/moodText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/trackMoodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/urbanist"
+            android:text="@string/how_feeling_today"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <!-- Emotion Entry EditText -->
+        <EditText
+            android:id="@+id/emotionEntry"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:fontFamily="@font/urbanist"
+            android:hint="@string/emotion_hint"
+            android:inputType="text"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/moodText" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitMood"
+            android:layout_width="161dp"
+            android:layout_height="59dp"
+            android:backgroundTint="@color/ButtonYellow"
+            android:padding="16dp"
+            android:text="@string/submit"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12dp"
+            app:cornerRadius="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emotionEntry"
+            android:layout_marginTop="5dp"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

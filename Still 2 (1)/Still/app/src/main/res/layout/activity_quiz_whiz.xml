@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031B3B"
+    tools:context=".QuizWhizActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="454dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:src="@drawable/quizwhizzbanner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/scoreText"
+            android:padding="4dp"
+            android:fontFamily="@font/urbanist"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="32dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question\nquestion"
+            android:id="@+id/questionText"
+            android:fontFamily="@font/urbanist"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option1Button"
+            android:text="Option 1"
+            android:fontFamily="@font/urbanist"
+            android:backgroundTint="@color/ButtonYellow"
+            app:cornerRadius="8dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option2Button"
+            android:fontFamily="@font/urbanist"
+            android:backgroundTint="@color/ButtonYellow"
+            app:cornerRadius="8dp"
+            android:text="Option 2"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ButtonYellow"
+            app:cornerRadius="8dp"
+            android:id="@+id/option3Button"
+            android:text="Option 3"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restartButton"
+        android:text="Restart Quizz"
+        android:fontFamily="@font/urbanist"
+        android:backgroundTint="#C5DACD"
+        app:cornerRadius="8dp"
+        android:textColorHint="@color/BackgroundBlue"
+        android:layout_marginTop="35dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@color/BackgroundBlue"
+        android:enabled="false"/>
+
+
+
+</LinearLayout>

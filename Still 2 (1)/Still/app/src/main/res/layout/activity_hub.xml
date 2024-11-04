@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031B3B"
+    tools:context=".HubActivity">
+
+    <!-- GIF Banner at the top -->
+
+    <ImageView
+        android:id="@+id/mindHubBanner"
+        android:layout_width="412dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        android:src="@drawable/mindhubbanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/VibeCheckBtn"
+        android:layout_width="318dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:clipToOutline="true"
+        android:contentDescription=""
+        android:src="@drawable/vibecheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mindHubBanner" />
+
+    <ImageButton
+        android:id="@+id/SerenaAIBtn"
+        android:layout_width="318dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:contentDescription=""
+        android:src="@drawable/serena"
+        android:clipToOutline="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/VibeCheckBtn" />
+
+    <ImageButton
+        android:id="@+id/PowerUpBtn"
+        android:layout_width="318dp"
+        android:layout_height="162dp"
+        android:background="@drawable/rounded_button"
+        android:clipToOutline="true"
+        android:contentDescription=""
+        android:src="@drawable/powerup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/SerenaAIBtn"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/introducing_ai_technology"
+        android:textColor="#ffec4e"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mindHubBanner"
+        app:layout_constraintVertical_bias="0.157" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="348dp"
+        android:layout_height="70dp"
+        android:background="@drawable/nav_bar_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

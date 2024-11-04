@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031B3B"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="646dp"
+        android:layout_height="221dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/homebanner" />
+
+    <!-- Container for the GIF and text -->
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/windownbtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Windown Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/winddownbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/focusbtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Focus Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/focusbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/breathebtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Breathe Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/breathebtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/arcadebtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Arcade Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arcadebtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homelogo"
+        app:layout_constraintVertical_bias="0.777"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/meditatebtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Meditate Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/meditate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/notepadbtn"
+        android:layout_width="174dp"
+        android:layout_height="144dp"
+        android:contentDescription="Notepad Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/notepadbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="348dp"
+        android:layout_height="70dp"
+        android:background="@drawable/nav_bar_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/BackgroundBlue"
+
+    tools:context=".SettingsActivity">
+    <ImageView
+
+        android:id="@+id/homelogo"
+
+        android:layout_width="505dp"
+
+        android:layout_height="133dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.0"
+
+        app:srcCompat="@drawable/settingsbanner" />
+
+    <EditText
+
+        android:id="@+id/EmailField"
+
+        android:layout_width="345dp"
+
+        android:layout_height="50dp"
+
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/input_bg"
+
+        android:ems="10"
+
+        android:fontFamily="@font/urbanist"
+
+        android:hint="@string/name_hint"
+
+        android:inputType="text"
+
+        android:textSize="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/homelogo"
+
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+
+        android:id="@+id/ConfirmEmailChange"
+
+        android:layout_width="345dp"
+
+        android:layout_height="60dp"
+
+        android:backgroundTint="@color/ButtonYellow"
+
+        android:fontFamily="@font/urbanist"
+
+        android:text="@string/confirm_email"
+
+        android:textSize="17dp"
+
+        app:cornerRadius="13dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/homelogo"
+
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+
+        android:id="@+id/DeleteAccount"
+
+        android:layout_width="181dp"
+
+        android:layout_height="54dp"
+
+        android:backgroundTint="#D54050"
+
+        android:fontFamily="@font/urbanist"
+
+        android:text="@string/delete_account"
+
+        android:textSize="17dp"
+
+        app:cornerRadius="7dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.793" />
+
+    <TextView
+
+        android:id="@+id/UpdatePassword"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/urbanist"
+
+        android:text="@string/want_to_change_password"
+
+        android:textColor="@color/white"
+
+        android:textSize="15dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmEmailChange"
+
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/language_selector"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/button_with_stroke"
+        android:hint="select language"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="348dp"
+        android:layout_height="70dp"
+        android:background="@drawable/nav_bar_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:menu="@menu/bottom_navigation_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
