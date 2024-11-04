@@ -35,7 +35,7 @@
 12. [Serenity API](#serenity-api)
 13. [Installation](#installation)
 14. [Screenshots](#screenshots)
-15. [Demo Video](#demo-video)
+15. [Demo Videos](#demo-videos)
 16. [License](#license)
 17. [Contact](#contact)
 18. [References](#references)
@@ -351,7 +351,7 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 
 ---
 
-## Demo Video
+## Demo Videos
 Watch our demo video to see Still in action:
 
 <img src ="recording copy.gif"  />
@@ -360,14 +360,17 @@ Watch our demo video to see Still in action:
   <img src="https://media3.giphy.com/media/rrOif8vmuM6g05Zha5/giphy.gif?cid=6c09b9525yudzzl1gio0aotte4jpryu1uy7dlflc01rk9s3i&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Cloud Image" width="300">
 </div>
 
+<br/>
 Part 3 Demo Video: 
+<br/>
 <a href="https://youtu.be/WFn2z9TR46M?si=_GCuuS73cv-DKBCo" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Icon">
 </a>
 <p>
 <p>
-
+<br/>
 Part 2 Demo Video: 
+   <br/>
 <a href="https://youtu.be/8q-LnL8vNBw" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Icon">
 </a>
