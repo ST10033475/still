@@ -253,7 +253,7 @@ In the Still app, we use an API to fetch calming songs and soundscapes that enha
 ### From GitHub
 1. Clone the repository:
    ```bash
-   git clone https://github.com/InvestIQ/still.git
+   git clone https://github.com/ST10033475/still.git
    ```
   
 2. Open the application within Android Studio
